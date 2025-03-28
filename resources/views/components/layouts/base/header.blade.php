@@ -18,16 +18,16 @@
     <!-- Simplified User Area for Unauthenticated Users -->
     <flux:navbar>
 
-      <flux:navbar.item class="!h-10 [&>div>svg]:size-5" href="#" label="Leadership">
+      <flux:navbar.item class="!h-10 [&>div>svg]:size-5" href="/leadership" label="Leadership">
         Leadership
       </flux:navbar.item>
-      <flux:navbar.item class="!h-10 [&>div>svg]:size-5" href="#" label="Events">
+      <flux:navbar.item class="!h-10 [&>div>svg]:size-5" href="/events" label="Events">
         Events
       </flux:navbar.item>
-      <flux:navlist.item class="text-lg">
+      <flux:navlist.item class="!h-10 [&>div>svg]:size-5" href="/awardsandscholarships" label="Events">
         Awards and Scholarship
       </flux:navlist.item>
-      <flux:navlist.item>
+      <flux:navlist.item class="!h-10 [&>div>svg]:size-5" href="/membership" label="Events">
         Membership
       </flux:navlist.item>
     </flux:navbar>
